@@ -123,7 +123,7 @@ injective-rmr-tests/                          # 🏗️ Enterprise QA Framework
 - **Documentation**: 7 comprehensive documentation files
 - **Critical Bugs Found**: 1 security vulnerability discovered
 
-## 🚀 Mock Blockchain CLI
+## 🚀 Mock Blockchain CLI (Recommended due to setup issues of local nodes)
 
 For development and testing without requiring a full Injective node, we provide a **sophisticated mock blockchain CLI** that simulates the complete governance workflow.
 
