@@ -125,7 +125,7 @@ injective-rmr-tests/                          # 🏗️ Enterprise QA Framework
 
 ## 🚀 Mock Blockchain CLI (Recommended due to setup issues of local nodes)
 
-For development and testing without requiring a full Injective node, we provide a **sophisticated mock blockchain CLI** that simulates the complete governance workflow.
+For development and testing without requiring a full Injective node, we provide a **sophisticated mock blockchain CLI** that simulates the complete governance workflow. Aproximate all tests execution time ~ 7 minutes
 
 ### **Mock CLI Features:**
 
