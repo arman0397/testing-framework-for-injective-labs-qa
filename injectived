@@ -1,0 +1,3 @@
+#!/bin/bash
+# Mock injectived CLI wrapper
+exec python3 "$(dirname "$0")/demo_cli_mock.py" "$@" 

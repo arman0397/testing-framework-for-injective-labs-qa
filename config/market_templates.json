@@ -1,0 +1,69 @@
+{
+  "templates": {
+    "standard_perp": {
+      "oracle_type": "Band",
+      "oracle_scale_factor": 6,
+      "maker_fee_rate": "0.001",
+      "taker_fee_rate": "0.002",
+      "min_price_tick_size": "0.000001",
+      "min_quantity_tick_size": "0.001",
+      "deposit": "1000000000000000000inj"
+    },
+    "high_precision_perp": {
+      "oracle_type": "Band",
+      "oracle_scale_factor": 9,
+      "maker_fee_rate": "0.0005",
+      "taker_fee_rate": "0.0015",
+      "min_price_tick_size": "0.000000001",
+      "min_quantity_tick_size": "0.000001",
+      "deposit": "1000000000000000000inj"
+    },
+    "low_fee_perp": {
+      "oracle_type": "Band",
+      "oracle_scale_factor": 6,
+      "maker_fee_rate": "0.0001",
+      "taker_fee_rate": "0.0005",
+      "min_price_tick_size": "0.00001",
+      "min_quantity_tick_size": "0.01",
+      "deposit": "500000000000000000inj"
+    }
+  },
+  "test_scenarios": {
+    "rmr_high": {
+      "template": "standard_perp",
+      "rmr": 0.15,
+      "description": "High RMR scenario - 15%"
+    },
+    "rmr_medium": {
+      "template": "standard_perp", 
+      "rmr": 0.10,
+      "description": "Medium RMR scenario - 10%"
+    },
+    "rmr_low": {
+      "template": "standard_perp",
+      "rmr": 0.05,
+      "description": "Low RMR scenario - 5% (equals IMR)"
+    },
+    "rmr_boundary": {
+      "template": "high_precision_perp",
+      "rmr": 0.0505,
+      "description": "Boundary RMR scenario - just above IMR"
+    }
+  },
+  "market_configs": {
+    "TST_USDT_PERP": {
+      "ticker": "TST/USDT PERP",
+      "base_denom": "tst",
+      "quote_denom": "usdt",
+      "oracle_base": "tst",
+      "oracle_quote": "usdt"
+    },
+    "TEST_BTC_PERP": {
+      "ticker": "TEST/BTC PERP", 
+      "base_denom": "test",
+      "quote_denom": "btc",
+      "oracle_base": "test",
+      "oracle_quote": "btc"
+    }
+  }
+} 

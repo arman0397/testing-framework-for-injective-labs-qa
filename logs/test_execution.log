@@ -1,0 +1,809 @@
+2025-06-30 02:02:34,208 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 02:02:34,208 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 02:02:34,208 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.05, MMR=0.03
+2025-06-30 02:02:34,208 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 02:02:34,209 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 02:02:34,209 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 02:02:34,209 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.03
+2025-06-30 02:02:34,209 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 02:02:34,209 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 02:02:34,209 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.15, IMR=0.1, MMR=0.05, expected_valid=True
+2025-06-30 02:02:34,209 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.15, IMR=0.1, MMR=0.05
+2025-06-30 02:02:34,209 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 02:02:34,210 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 02:02:34,210 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.2, IMR=0.15, MMR=0.1, expected_valid=True
+2025-06-30 02:02:34,210 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.2, IMR=0.15, MMR=0.1
+2025-06-30 02:02:34,210 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 02:02:34,210 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 02:02:34,210 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.03, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 02:02:34,210 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.03, IMR=0.05, MMR=0.03
+2025-06-30 02:02:34,210 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 02:02:34,210 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 02:02:34,211 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.02, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 02:02:34,211 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.02, IMR=0.05, MMR=0.03
+2025-06-30 02:02:34,211 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 02:02:34,211 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 02:02:34,211 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.03, MMR=0.05, expected_valid=False
+2025-06-30 02:02:34,211 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.03, MMR=0.05
+2025-06-30 02:02:34,211 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 02:02:34,211 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 02:02:34,211 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.05, expected_valid=False
+2025-06-30 02:02:34,211 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.05
+2025-06-30 02:02:34,211 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 02:02:34,212 - tests.conftest - INFO - Starting test: test_edge_case_values[0.0]
+2025-06-30 02:02:34,212 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.0
+2025-06-30 02:02:34,212 - tests.test_rmr_validation - INFO - Edge case RMR 0.0 handled correctly (invalid, properly rejected)
+2025-06-30 02:02:34,212 - tests.conftest - INFO - Completed test: test_edge_case_values[0.0]
+2025-06-30 02:02:34,212 - tests.conftest - INFO - Starting test: test_edge_case_values[1e-06]
+2025-06-30 02:02:34,213 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1e-06
+2025-06-30 02:02:34,213 - tests.test_rmr_validation - INFO - Edge case RMR 1e-06 handled correctly (invalid, properly rejected)
+2025-06-30 02:02:34,213 - tests.conftest - INFO - Completed test: test_edge_case_values[1e-06]
+2025-06-30 02:02:34,213 - tests.conftest - INFO - Starting test: test_edge_case_values[0.999999]
+2025-06-30 02:02:34,213 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.999999
+2025-06-30 02:02:34,213 - tests.test_rmr_validation - INFO - Edge case RMR 0.999999 handled correctly (valid)
+2025-06-30 02:02:34,214 - tests.conftest - INFO - Completed test: test_edge_case_values[0.999999]
+2025-06-30 02:02:34,214 - tests.conftest - INFO - Starting test: test_edge_case_values[1.0]
+2025-06-30 02:02:34,214 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1.0
+2025-06-30 02:02:34,214 - tests.test_rmr_validation - INFO - Edge case RMR 1.0 handled correctly (valid)
+2025-06-30 02:02:34,214 - tests.conftest - INFO - Completed test: test_edge_case_values[1.0]
+2025-06-30 02:02:34,214 - tests.conftest - INFO - Starting test: test_edge_case_values[0.05]
+2025-06-30 02:02:34,215 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.05
+2025-06-30 02:02:34,215 - tests.test_rmr_validation - INFO - Edge case RMR 0.05 handled correctly (valid)
+2025-06-30 02:02:34,215 - tests.conftest - INFO - Completed test: test_edge_case_values[0.05]
+2025-06-30 02:02:34,215 - tests.conftest - INFO - Starting test: test_edge_case_values[0.050001]
+2025-06-30 02:02:34,215 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.050001
+2025-06-30 02:02:34,215 - tests.test_rmr_validation - INFO - Edge case RMR 0.050001 handled correctly (valid)
+2025-06-30 02:02:34,215 - tests.conftest - INFO - Completed test: test_edge_case_values[0.050001]
+2025-06-30 02:02:34,215 - tests.conftest - INFO - Starting test: test_edge_case_values[0.049999]
+2025-06-30 02:02:34,215 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.049999
+2025-06-30 02:02:34,216 - tests.test_rmr_validation - INFO - Edge case RMR 0.049999 handled correctly (invalid, properly rejected)
+2025-06-30 02:02:34,216 - tests.conftest - INFO - Completed test: test_edge_case_values[0.049999]
+2025-06-30 02:02:34,216 - tests.conftest - INFO - Starting test: test_precision_limits
+2025-06-30 02:02:34,216 - tests.test_rmr_validation - INFO - Testing high precision RMR: 0.051234567890123456
+2025-06-30 02:02:34,216 - tests.test_rmr_validation - INFO - High precision 0.051234567890123456 stored as: 0.051234
+2025-06-30 02:02:34,216 - tests.test_rmr_validation - INFO - High precision RMR handled correctly
+2025-06-30 02:02:34,216 - tests.conftest - INFO - Completed test: test_precision_limits
+2025-06-30 02:02:34,216 - tests.conftest - INFO - Starting test: test_invalid_input_types[-0.01]
+2025-06-30 02:02:34,216 - tests.test_rmr_validation - INFO - Testing invalid input: -0.01
+2025-06-30 02:02:34,216 - tests.test_rmr_validation - INFO - Invalid input -0.01 properly rejected
+2025-06-30 02:02:34,216 - tests.conftest - INFO - Completed test: test_invalid_input_types[-0.01]
+2025-06-30 02:02:34,217 - tests.conftest - INFO - Starting test: test_invalid_input_types[-1.0]
+2025-06-30 02:02:34,217 - tests.test_rmr_validation - INFO - Testing invalid input: -1.0
+2025-06-30 02:02:34,217 - tests.test_rmr_validation - INFO - Invalid input -1.0 properly rejected
+2025-06-30 02:02:34,217 - tests.conftest - INFO - Completed test: test_invalid_input_types[-1.0]
+2025-06-30 02:02:34,217 - tests.conftest - INFO - Starting test: test_invalid_input_types[inf]
+2025-06-30 02:02:34,217 - tests.test_rmr_validation - INFO - Testing invalid input: inf
+2025-06-30 02:02:34,227 - tests.conftest - INFO - Completed test: test_invalid_input_types[inf]
+2025-06-30 02:02:34,228 - tests.conftest - INFO - Starting test: test_invalid_input_types[-inf]
+2025-06-30 02:02:34,228 - tests.test_rmr_validation - INFO - Testing invalid input: -inf
+2025-06-30 02:02:34,228 - tests.test_rmr_validation - INFO - Invalid input -inf properly rejected
+2025-06-30 02:02:34,228 - tests.conftest - INFO - Completed test: test_invalid_input_types[-inf]
+2025-06-30 02:02:34,229 - tests.conftest - INFO - Starting test: test_error_handling_messages
+2025-06-30 02:02:34,229 - tests.test_rmr_validation - INFO - Testing error message quality
+2025-06-30 02:02:34,229 - tests.test_rmr_validation - INFO - Error message is informative: Invalid margin ratios: RMR(0.02) >= IMR(0.05) > MMR(0.03) constraint not met
+2025-06-30 02:02:34,229 - tests.conftest - INFO - Completed test: test_error_handling_messages
+2025-06-30 02:02:34,229 - tests.conftest - INFO - Starting test: test_constraint_validation_consistency
+2025-06-30 02:02:34,229 - tests.test_rmr_validation - INFO - Testing constraint validation consistency
+2025-06-30 02:02:34,229 - tests.test_rmr_validation - INFO - Testing consistency for valid_high: RMR=0.15
+2025-06-30 02:02:34,229 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_high
+2025-06-30 02:02:34,229 - tests.test_rmr_validation - INFO - Testing consistency for valid_medium: RMR=0.1
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_medium
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Testing consistency for valid_low: RMR=0.05
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_low
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Testing consistency for invalid_low: RMR=0.02
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Validation consistency verified for invalid_low
+2025-06-30 02:02:34,230 - tests.conftest - INFO - Completed test: test_constraint_validation_consistency
+2025-06-30 02:02:34,230 - tests.conftest - INFO - Starting test: test_floating_point_precision_edge_cases
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Testing floating point precision edge cases
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Testing slightly_above_imr: RMR=0.050000000100000004
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_above_imr
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Testing slightly_below_imr: RMR=0.0499999999
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_below_imr
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Testing exactly_imr: RMR=0.05
+2025-06-30 02:02:34,230 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for exactly_imr
+2025-06-30 02:02:34,230 - tests.conftest - INFO - Completed test: test_floating_point_precision_edge_cases
+2025-06-30 02:02:34,231 - tests.conftest - INFO - Starting test: test_percentage_vs_decimal_consistency
+2025-06-30 02:02:34,231 - tests.test_rmr_validation - INFO - Testing percentage vs decimal consistency
+2025-06-30 02:02:34,231 - tests.test_rmr_validation - INFO - Percentage vs decimal consistency verified
+2025-06-30 02:02:34,231 - tests.conftest - INFO - Completed test: test_percentage_vs_decimal_consistency
+2025-06-30 02:03:04,757 - tests.conftest - INFO - Checking Injective node connection...
+2025-06-30 02:03:04,758 - injective_cli - INFO - Executing command (attempt 1): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 02:03:04,760 - injective_cli - ERROR - Unexpected error: [Errno 2] No such file or directory: 'injectived'
+2025-06-30 02:03:05,765 - injective_cli - INFO - Executing command (attempt 2): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 02:03:05,768 - injective_cli - ERROR - Unexpected error: [Errno 2] No such file or directory: 'injectived'
+2025-06-30 02:03:07,771 - injective_cli - INFO - Executing command (attempt 3): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 02:03:07,774 - injective_cli - ERROR - Unexpected error: [Errno 2] No such file or directory: 'injectived'
+2025-06-30 02:03:08,231 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 02:03:08,231 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 02:03:08,231 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.05, MMR=0.03
+2025-06-30 02:03:08,231 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 02:03:08,231 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 02:03:08,232 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 02:03:08,232 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.03
+2025-06-30 02:03:08,232 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 02:03:08,232 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 02:03:08,232 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.15, IMR=0.1, MMR=0.05, expected_valid=True
+2025-06-30 02:03:08,232 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.15, IMR=0.1, MMR=0.05
+2025-06-30 02:03:08,232 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 02:03:08,232 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 02:03:08,232 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.2, IMR=0.15, MMR=0.1, expected_valid=True
+2025-06-30 02:03:08,232 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.2, IMR=0.15, MMR=0.1
+2025-06-30 02:03:08,233 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 02:03:08,233 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 02:03:08,233 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.03, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 02:03:08,233 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.03, IMR=0.05, MMR=0.03
+2025-06-30 02:03:08,233 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 02:03:08,233 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 02:03:08,233 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.02, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 02:03:08,233 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.02, IMR=0.05, MMR=0.03
+2025-06-30 02:03:08,233 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 02:03:08,233 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 02:03:08,234 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.03, MMR=0.05, expected_valid=False
+2025-06-30 02:03:08,234 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.03, MMR=0.05
+2025-06-30 02:03:08,234 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 02:03:08,234 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 02:03:08,234 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.05, expected_valid=False
+2025-06-30 02:03:08,234 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.05
+2025-06-30 02:03:08,234 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 02:03:08,234 - tests.conftest - INFO - Starting test: test_edge_case_values[0.0]
+2025-06-30 02:03:08,234 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.0
+2025-06-30 02:03:08,234 - tests.test_rmr_validation - INFO - Edge case RMR 0.0 handled correctly (invalid, properly rejected)
+2025-06-30 02:03:08,234 - tests.conftest - INFO - Completed test: test_edge_case_values[0.0]
+2025-06-30 02:03:08,235 - tests.conftest - INFO - Starting test: test_edge_case_values[1e-06]
+2025-06-30 02:03:08,235 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1e-06
+2025-06-30 02:03:08,235 - tests.test_rmr_validation - INFO - Edge case RMR 1e-06 handled correctly (invalid, properly rejected)
+2025-06-30 02:03:08,235 - tests.conftest - INFO - Completed test: test_edge_case_values[1e-06]
+2025-06-30 02:03:08,235 - tests.conftest - INFO - Starting test: test_edge_case_values[0.999999]
+2025-06-30 02:03:08,235 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.999999
+2025-06-30 02:03:08,235 - tests.test_rmr_validation - INFO - Edge case RMR 0.999999 handled correctly (valid)
+2025-06-30 02:03:08,235 - tests.conftest - INFO - Completed test: test_edge_case_values[0.999999]
+2025-06-30 02:03:08,235 - tests.conftest - INFO - Starting test: test_edge_case_values[1.0]
+2025-06-30 02:03:08,236 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1.0
+2025-06-30 02:03:08,236 - tests.test_rmr_validation - INFO - Edge case RMR 1.0 handled correctly (valid)
+2025-06-30 02:03:08,236 - tests.conftest - INFO - Completed test: test_edge_case_values[1.0]
+2025-06-30 02:03:08,236 - tests.conftest - INFO - Starting test: test_edge_case_values[0.05]
+2025-06-30 02:03:08,236 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.05
+2025-06-30 02:03:08,236 - tests.test_rmr_validation - INFO - Edge case RMR 0.05 handled correctly (valid)
+2025-06-30 02:03:08,236 - tests.conftest - INFO - Completed test: test_edge_case_values[0.05]
+2025-06-30 02:03:08,236 - tests.conftest - INFO - Starting test: test_edge_case_values[0.050001]
+2025-06-30 02:03:08,236 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.050001
+2025-06-30 02:03:08,236 - tests.test_rmr_validation - INFO - Edge case RMR 0.050001 handled correctly (valid)
+2025-06-30 02:03:08,237 - tests.conftest - INFO - Completed test: test_edge_case_values[0.050001]
+2025-06-30 02:03:08,237 - tests.conftest - INFO - Starting test: test_edge_case_values[0.049999]
+2025-06-30 02:03:08,237 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.049999
+2025-06-30 02:03:08,237 - tests.test_rmr_validation - INFO - Edge case RMR 0.049999 handled correctly (invalid, properly rejected)
+2025-06-30 02:03:08,237 - tests.conftest - INFO - Completed test: test_edge_case_values[0.049999]
+2025-06-30 02:03:08,237 - tests.conftest - INFO - Starting test: test_precision_limits
+2025-06-30 02:03:08,237 - tests.test_rmr_validation - INFO - Testing high precision RMR: 0.051234567890123456
+2025-06-30 02:03:08,237 - tests.test_rmr_validation - INFO - High precision 0.051234567890123456 stored as: 0.051234
+2025-06-30 02:03:08,237 - tests.test_rmr_validation - INFO - High precision RMR handled correctly
+2025-06-30 02:03:08,237 - tests.conftest - INFO - Completed test: test_precision_limits
+2025-06-30 02:03:08,238 - tests.conftest - INFO - Starting test: test_invalid_input_types[-0.01]
+2025-06-30 02:03:08,238 - tests.test_rmr_validation - INFO - Testing invalid input: -0.01
+2025-06-30 02:03:08,238 - tests.test_rmr_validation - INFO - Invalid input -0.01 properly rejected
+2025-06-30 02:03:08,238 - tests.conftest - INFO - Completed test: test_invalid_input_types[-0.01]
+2025-06-30 02:03:08,238 - tests.conftest - INFO - Starting test: test_invalid_input_types[-1.0]
+2025-06-30 02:03:08,238 - tests.test_rmr_validation - INFO - Testing invalid input: -1.0
+2025-06-30 02:03:08,238 - tests.test_rmr_validation - INFO - Invalid input -1.0 properly rejected
+2025-06-30 02:03:08,238 - tests.conftest - INFO - Completed test: test_invalid_input_types[-1.0]
+2025-06-30 02:03:08,239 - tests.conftest - INFO - Starting test: test_invalid_input_types[inf]
+2025-06-30 02:03:08,239 - tests.test_rmr_validation - INFO - Testing invalid input: inf
+2025-06-30 02:03:08,242 - tests.conftest - INFO - Completed test: test_invalid_input_types[inf]
+2025-06-30 02:03:08,242 - tests.conftest - INFO - Starting test: test_invalid_input_types[-inf]
+2025-06-30 02:03:08,242 - tests.test_rmr_validation - INFO - Testing invalid input: -inf
+2025-06-30 02:03:08,242 - tests.test_rmr_validation - INFO - Invalid input -inf properly rejected
+2025-06-30 02:03:08,242 - tests.conftest - INFO - Completed test: test_invalid_input_types[-inf]
+2025-06-30 02:03:08,242 - tests.conftest - INFO - Starting test: test_error_handling_messages
+2025-06-30 02:03:08,242 - tests.test_rmr_validation - INFO - Testing error message quality
+2025-06-30 02:03:08,242 - tests.test_rmr_validation - INFO - Error message is informative: Invalid margin ratios: RMR(0.02) >= IMR(0.05) > MMR(0.03) constraint not met
+2025-06-30 02:03:08,242 - tests.conftest - INFO - Completed test: test_error_handling_messages
+2025-06-30 02:03:08,242 - tests.conftest - INFO - Starting test: test_constraint_validation_consistency
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Testing constraint validation consistency
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Testing consistency for valid_high: RMR=0.15
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_high
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Testing consistency for valid_medium: RMR=0.1
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_medium
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Testing consistency for valid_low: RMR=0.05
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_low
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Testing consistency for invalid_low: RMR=0.02
+2025-06-30 02:03:08,243 - tests.test_rmr_validation - INFO - Validation consistency verified for invalid_low
+2025-06-30 02:03:08,250 - tests.conftest - INFO - Completed test: test_constraint_validation_consistency
+2025-06-30 03:20:06,469 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 03:20:06,470 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 03:20:06,470 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.05, MMR=0.03
+2025-06-30 03:20:06,470 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 03:20:06,470 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 03:20:06,470 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 03:20:06,470 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.03
+2025-06-30 03:20:06,470 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 03:20:06,471 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 03:20:06,471 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.15, IMR=0.1, MMR=0.05, expected_valid=True
+2025-06-30 03:20:06,471 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.15, IMR=0.1, MMR=0.05
+2025-06-30 03:20:06,471 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 03:20:06,471 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 03:20:06,471 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.2, IMR=0.15, MMR=0.1, expected_valid=True
+2025-06-30 03:20:06,472 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.2, IMR=0.15, MMR=0.1
+2025-06-30 03:20:06,472 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 03:20:06,472 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 03:20:06,472 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.03, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 03:20:06,472 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.03, IMR=0.05, MMR=0.03
+2025-06-30 03:20:06,472 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 03:20:06,472 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 03:20:06,472 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.02, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 03:20:06,472 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.02, IMR=0.05, MMR=0.03
+2025-06-30 03:20:06,473 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 03:20:06,473 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 03:20:06,473 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.03, MMR=0.05, expected_valid=False
+2025-06-30 03:20:06,473 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.03, MMR=0.05
+2025-06-30 03:20:06,473 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 03:20:06,474 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 03:20:06,474 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.05, expected_valid=False
+2025-06-30 03:20:06,474 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.05
+2025-06-30 03:20:06,474 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 03:20:06,474 - tests.conftest - INFO - Starting test: test_edge_case_values[0.0]
+2025-06-30 03:20:06,474 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.0
+2025-06-30 03:20:06,474 - tests.test_rmr_validation - INFO - Edge case RMR 0.0 handled correctly (invalid, properly rejected)
+2025-06-30 03:20:06,474 - tests.conftest - INFO - Completed test: test_edge_case_values[0.0]
+2025-06-30 03:20:06,475 - tests.conftest - INFO - Starting test: test_edge_case_values[1e-06]
+2025-06-30 03:20:06,475 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1e-06
+2025-06-30 03:20:06,475 - tests.test_rmr_validation - INFO - Edge case RMR 1e-06 handled correctly (invalid, properly rejected)
+2025-06-30 03:20:06,475 - tests.conftest - INFO - Completed test: test_edge_case_values[1e-06]
+2025-06-30 03:20:06,475 - tests.conftest - INFO - Starting test: test_edge_case_values[0.999999]
+2025-06-30 03:20:06,475 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.999999
+2025-06-30 03:20:06,475 - tests.test_rmr_validation - INFO - Edge case RMR 0.999999 handled correctly (valid)
+2025-06-30 03:20:06,476 - tests.conftest - INFO - Completed test: test_edge_case_values[0.999999]
+2025-06-30 03:20:06,476 - tests.conftest - INFO - Starting test: test_edge_case_values[1.0]
+2025-06-30 03:20:06,476 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1.0
+2025-06-30 03:20:06,476 - tests.test_rmr_validation - INFO - Edge case RMR 1.0 handled correctly (valid)
+2025-06-30 03:20:06,477 - tests.conftest - INFO - Completed test: test_edge_case_values[1.0]
+2025-06-30 03:20:06,477 - tests.conftest - INFO - Starting test: test_edge_case_values[0.05]
+2025-06-30 03:20:06,477 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.05
+2025-06-30 03:20:06,477 - tests.test_rmr_validation - INFO - Edge case RMR 0.05 handled correctly (valid)
+2025-06-30 03:20:06,477 - tests.conftest - INFO - Completed test: test_edge_case_values[0.05]
+2025-06-30 03:20:06,478 - tests.conftest - INFO - Starting test: test_edge_case_values[0.050001]
+2025-06-30 03:20:06,478 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.050001
+2025-06-30 03:20:06,478 - tests.test_rmr_validation - INFO - Edge case RMR 0.050001 handled correctly (valid)
+2025-06-30 03:20:06,478 - tests.conftest - INFO - Completed test: test_edge_case_values[0.050001]
+2025-06-30 03:20:06,478 - tests.conftest - INFO - Starting test: test_edge_case_values[0.049999]
+2025-06-30 03:20:06,479 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.049999
+2025-06-30 03:20:06,479 - tests.test_rmr_validation - INFO - Edge case RMR 0.049999 handled correctly (invalid, properly rejected)
+2025-06-30 03:20:06,479 - tests.conftest - INFO - Completed test: test_edge_case_values[0.049999]
+2025-06-30 03:20:06,479 - tests.conftest - INFO - Starting test: test_precision_limits
+2025-06-30 03:20:06,479 - tests.test_rmr_validation - INFO - Testing high precision RMR: 0.051234567890123456
+2025-06-30 03:20:06,479 - tests.test_rmr_validation - INFO - High precision 0.051234567890123456 stored as: 0.051234
+2025-06-30 03:20:06,479 - tests.test_rmr_validation - INFO - High precision RMR handled correctly
+2025-06-30 03:20:06,479 - tests.conftest - INFO - Completed test: test_precision_limits
+2025-06-30 03:20:06,480 - tests.conftest - INFO - Starting test: test_invalid_input_types[-0.01]
+2025-06-30 03:20:06,480 - tests.test_rmr_validation - INFO - Testing invalid input: -0.01
+2025-06-30 03:20:06,480 - tests.test_rmr_validation - INFO - Invalid input -0.01 properly rejected
+2025-06-30 03:20:06,480 - tests.conftest - INFO - Completed test: test_invalid_input_types[-0.01]
+2025-06-30 03:20:06,480 - tests.conftest - INFO - Starting test: test_invalid_input_types[-1.0]
+2025-06-30 03:20:06,480 - tests.test_rmr_validation - INFO - Testing invalid input: -1.0
+2025-06-30 03:20:06,480 - tests.test_rmr_validation - INFO - Invalid input -1.0 properly rejected
+2025-06-30 03:20:06,481 - tests.conftest - INFO - Completed test: test_invalid_input_types[-1.0]
+2025-06-30 03:20:06,481 - tests.conftest - INFO - Starting test: test_invalid_input_types[inf]
+2025-06-30 03:20:06,481 - tests.test_rmr_validation - INFO - Testing invalid input: inf
+2025-06-30 03:20:06,496 - tests.conftest - INFO - Completed test: test_invalid_input_types[inf]
+2025-06-30 03:20:06,497 - tests.conftest - INFO - Starting test: test_invalid_input_types[-inf]
+2025-06-30 03:20:06,497 - tests.test_rmr_validation - INFO - Testing invalid input: -inf
+2025-06-30 03:20:06,497 - tests.test_rmr_validation - INFO - Invalid input -inf properly rejected
+2025-06-30 03:20:06,497 - tests.conftest - INFO - Completed test: test_invalid_input_types[-inf]
+2025-06-30 03:20:06,497 - tests.conftest - INFO - Starting test: test_error_handling_messages
+2025-06-30 03:20:06,497 - tests.test_rmr_validation - INFO - Testing error message quality
+2025-06-30 03:20:06,497 - tests.test_rmr_validation - INFO - Error message is informative: Invalid margin ratios: RMR(0.02) >= IMR(0.05) > MMR(0.03) constraint not met
+2025-06-30 03:20:06,497 - tests.conftest - INFO - Completed test: test_error_handling_messages
+2025-06-30 03:20:06,498 - tests.conftest - INFO - Starting test: test_constraint_validation_consistency
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Testing constraint validation consistency
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Testing consistency for valid_high: RMR=0.15
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_high
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Testing consistency for valid_medium: RMR=0.1
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_medium
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Testing consistency for valid_low: RMR=0.05
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_low
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Testing consistency for invalid_low: RMR=0.02
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Validation consistency verified for invalid_low
+2025-06-30 03:20:06,498 - tests.conftest - INFO - Completed test: test_constraint_validation_consistency
+2025-06-30 03:20:06,498 - tests.conftest - INFO - Starting test: test_floating_point_precision_edge_cases
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Testing floating point precision edge cases
+2025-06-30 03:20:06,498 - tests.test_rmr_validation - INFO - Testing slightly_above_imr: RMR=0.050000000100000004
+2025-06-30 03:20:06,499 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_above_imr
+2025-06-30 03:20:06,499 - tests.test_rmr_validation - INFO - Testing slightly_below_imr: RMR=0.0499999999
+2025-06-30 03:20:06,499 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_below_imr
+2025-06-30 03:20:06,499 - tests.test_rmr_validation - INFO - Testing exactly_imr: RMR=0.05
+2025-06-30 03:20:06,499 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for exactly_imr
+2025-06-30 03:20:06,499 - tests.conftest - INFO - Completed test: test_floating_point_precision_edge_cases
+2025-06-30 03:20:06,499 - tests.conftest - INFO - Starting test: test_percentage_vs_decimal_consistency
+2025-06-30 03:20:06,499 - tests.test_rmr_validation - INFO - Testing percentage vs decimal consistency
+2025-06-30 03:20:06,499 - tests.test_rmr_validation - INFO - Percentage vs decimal consistency verified
+2025-06-30 03:20:06,499 - tests.conftest - INFO - Completed test: test_percentage_vs_decimal_consistency
+2025-06-30 03:23:33,675 - tests.conftest - INFO - Starting test: test_error_handling_messages
+2025-06-30 03:23:33,675 - tests.test_rmr_validation - INFO - Testing error message quality
+2025-06-30 03:23:33,675 - tests.test_rmr_validation - INFO - Error message is informative: Invalid margin ratios: RMR(0.02) >= IMR(0.05) > MMR(0.03) constraint not met
+2025-06-30 03:23:33,675 - tests.conftest - INFO - Completed test: test_error_handling_messages
+2025-06-30 03:23:53,944 - tests.conftest - INFO - Starting test: test_precision_limits
+2025-06-30 03:23:53,945 - tests.test_rmr_validation - INFO - Testing high precision RMR: 0.051234567890123456
+2025-06-30 03:23:53,945 - tests.test_rmr_validation - INFO - High precision 0.051234567890123456 stored as: 0.051234
+2025-06-30 03:23:53,945 - tests.test_rmr_validation - INFO - High precision RMR handled correctly
+2025-06-30 03:23:53,945 - tests.conftest - INFO - Completed test: test_precision_limits
+2025-06-30 03:24:09,105 - tests.conftest - INFO - Starting test: test_floating_point_precision_edge_cases
+2025-06-30 03:24:09,105 - tests.test_rmr_validation - INFO - Testing floating point precision edge cases
+2025-06-30 03:24:09,105 - tests.test_rmr_validation - INFO - Testing slightly_above_imr: RMR=0.050000000100000004
+2025-06-30 03:24:09,105 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_above_imr
+2025-06-30 03:24:09,105 - tests.test_rmr_validation - INFO - Testing slightly_below_imr: RMR=0.0499999999
+2025-06-30 03:24:09,105 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_below_imr
+2025-06-30 03:24:09,105 - tests.test_rmr_validation - INFO - Testing exactly_imr: RMR=0.05
+2025-06-30 03:24:09,105 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for exactly_imr
+2025-06-30 03:24:09,105 - tests.conftest - INFO - Completed test: test_floating_point_precision_edge_cases
+2025-06-30 03:24:26,222 - tests.conftest - INFO - Starting test: test_constraint_validation_consistency
+2025-06-30 03:24:26,222 - tests.test_rmr_validation - INFO - Testing constraint validation consistency
+2025-06-30 03:24:26,222 - tests.test_rmr_validation - INFO - Testing consistency for valid_high: RMR=0.15
+2025-06-30 03:24:26,222 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_high
+2025-06-30 03:24:26,223 - tests.test_rmr_validation - INFO - Testing consistency for valid_medium: RMR=0.1
+2025-06-30 03:24:26,223 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_medium
+2025-06-30 03:24:26,223 - tests.test_rmr_validation - INFO - Testing consistency for valid_low: RMR=0.05
+2025-06-30 03:24:26,223 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_low
+2025-06-30 03:24:26,223 - tests.test_rmr_validation - INFO - Testing consistency for invalid_low: RMR=0.02
+2025-06-30 03:24:26,223 - tests.test_rmr_validation - INFO - Validation consistency verified for invalid_low
+2025-06-30 03:24:26,223 - tests.conftest - INFO - Completed test: test_constraint_validation_consistency
+2025-06-30 03:24:49,307 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 03:24:49,308 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 03:24:49,308 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.05, MMR=0.03
+2025-06-30 03:24:49,308 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 03:24:49,308 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 03:24:49,309 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 03:24:49,309 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.03
+2025-06-30 03:24:49,310 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 03:24:49,310 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 03:24:49,310 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.15, IMR=0.1, MMR=0.05, expected_valid=True
+2025-06-30 03:24:49,310 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.15, IMR=0.1, MMR=0.05
+2025-06-30 03:24:49,310 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 03:24:49,310 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 03:24:49,310 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.2, IMR=0.15, MMR=0.1, expected_valid=True
+2025-06-30 03:24:49,310 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.2, IMR=0.15, MMR=0.1
+2025-06-30 03:24:49,310 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 03:24:49,311 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 03:24:49,311 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.03, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 03:24:49,311 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.03, IMR=0.05, MMR=0.03
+2025-06-30 03:24:49,311 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 03:24:49,311 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 03:24:49,311 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.02, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 03:24:49,311 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.02, IMR=0.05, MMR=0.03
+2025-06-30 03:24:49,311 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 03:24:49,311 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 03:24:49,312 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.03, MMR=0.05, expected_valid=False
+2025-06-30 03:24:49,312 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.03, MMR=0.05
+2025-06-30 03:24:49,312 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 03:24:49,312 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 03:24:49,312 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.05, expected_valid=False
+2025-06-30 03:24:49,312 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.05
+2025-06-30 03:24:49,312 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 03:26:18,582 - tests.conftest - INFO - Checking Injective node connection...
+2025-06-30 03:26:18,583 - injective_cli - INFO - Executing command (attempt 1): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:26:18,584 - injective_cli - ERROR - Unexpected error: [Errno 2] No such file or directory: 'injectived'
+2025-06-30 03:26:19,590 - injective_cli - INFO - Executing command (attempt 2): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:26:19,595 - injective_cli - ERROR - Unexpected error: [Errno 2] No such file or directory: 'injectived'
+2025-06-30 03:26:21,596 - injective_cli - INFO - Executing command (attempt 3): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:26:21,599 - injective_cli - ERROR - Unexpected error: [Errno 2] No such file or directory: 'injectived'
+2025-06-30 03:29:38,671 - tests.conftest - INFO - Checking Injective node connection...
+2025-06-30 03:29:38,672 - injective_cli - INFO - Executing command (attempt 1): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:29:38,818 - tests.conftest - INFO - Connected to Injective node at block height: 1000008
+2025-06-30 03:29:38,819 - tests.conftest - INFO - Verifying test keys...
+2025-06-30 03:29:38,819 - injective_cli - INFO - Executing command (attempt 1): injectived keys show testcandidate --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:29:38,854 - tests.conftest - INFO - Key 'testcandidate' is available
+2025-06-30 03:29:38,854 - injective_cli - INFO - Executing command (attempt 1): injectived keys show val --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:29:38,883 - tests.conftest - INFO - Key 'val' is available
+2025-06-30 03:29:38,883 - injective_cli - INFO - Executing command (attempt 1): injectived keys show testcandidate --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:29:38,911 - tests.conftest - INFO - Key 'testcandidate' is available
+2025-06-30 03:29:38,911 - tests.conftest - INFO - Starting test: test_rmr_stored_correctly
+2025-06-30 03:29:38,911 - tests.conftest - INFO - Creating test market: TEST1751239778360f908f/USDT PERP
+2025-06-30 03:29:38,911 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:29:38,912 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:29:38,942 - tests.conftest - ERROR - Failed to create test market: Could not extract proposal ID from transaction result
+2025-06-30 03:29:38,942 - tests.conftest - INFO - Test completed for market: TEST1751239778360f908f/USDT PERP
+2025-06-30 03:29:38,975 - tests.conftest - INFO - Completed test: test_rmr_stored_correctly
+2025-06-30 03:30:37,106 - tests.conftest - INFO - Checking Injective node connection...
+2025-06-30 03:30:37,106 - injective_cli - INFO - Executing command (attempt 1): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:30:37,139 - tests.conftest - INFO - Connected to Injective node at block height: 1000008
+2025-06-30 03:30:37,139 - tests.conftest - INFO - Verifying test keys...
+2025-06-30 03:30:37,139 - injective_cli - INFO - Executing command (attempt 1): injectived keys show testcandidate --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:30:37,165 - tests.conftest - INFO - Key 'testcandidate' is available
+2025-06-30 03:30:37,165 - injective_cli - INFO - Executing command (attempt 1): injectived keys show val --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:30:37,189 - tests.conftest - INFO - Key 'val' is available
+2025-06-30 03:30:37,190 - injective_cli - INFO - Executing command (attempt 1): injectived keys show testcandidate --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:30:37,214 - tests.conftest - INFO - Key 'testcandidate' is available
+2025-06-30 03:30:37,214 - tests.conftest - INFO - Starting test: test_rmr_stored_correctly
+2025-06-30 03:30:37,215 - tests.conftest - INFO - Creating test market: TEST17512398376b0cb7fd/USDT PERP
+2025-06-30 03:30:37,215 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:30:37,215 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:30:37,246 - market_utils - INFO - Proposal submitted with ID: 338
+2025-06-30 03:30:42,252 - market_utils - INFO - Voting on proposal 338...
+2025-06-30 03:30:42,252 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 338 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:30:42,296 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 338 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:30:42,325 - market_utils - INFO - Proposal 338 passed successfully
+2025-06-30 03:30:52,331 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:30:52,383 - tests.conftest - INFO - Test completed for market: TEST17512398376b0cb7fd/USDT PERP
+2025-06-30 03:30:52,397 - tests.conftest - INFO - Completed test: test_rmr_stored_correctly
+2025-06-30 03:33:53,331 - tests.conftest - INFO - Checking Injective node connection...
+2025-06-30 03:33:53,332 - injective_cli - INFO - Executing command (attempt 1): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:33:53,362 - tests.conftest - INFO - Connected to Injective node at block height: 1000010
+2025-06-30 03:33:53,362 - tests.conftest - INFO - Verifying test keys...
+2025-06-30 03:33:53,362 - injective_cli - INFO - Executing command (attempt 1): injectived keys show testcandidate --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:33:53,391 - tests.conftest - INFO - Key 'testcandidate' is available
+2025-06-30 03:33:53,391 - injective_cli - INFO - Executing command (attempt 1): injectived keys show val --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:33:53,420 - tests.conftest - INFO - Key 'val' is available
+2025-06-30 03:33:53,420 - injective_cli - INFO - Executing command (attempt 1): injectived keys show testcandidate --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:33:53,447 - tests.conftest - INFO - Key 'testcandidate' is available
+2025-06-30 03:33:53,448 - tests.conftest - INFO - Starting test: test_rmr_stored_correctly
+2025-06-30 03:33:53,448 - tests.conftest - INFO - Creating test market: TEST1751240033589ed841/USDT PERP
+2025-06-30 03:33:53,448 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:33:53,448 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:33:53,481 - market_utils - INFO - Proposal submitted with ID: 215
+2025-06-30 03:33:58,486 - market_utils - INFO - Voting on proposal 215...
+2025-06-30 03:33:58,487 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 215 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:33:58,537 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 215 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:33:58,567 - market_utils - INFO - Proposal 215 passed successfully
+2025-06-30 03:34:08,572 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:08,627 - tests.conftest - INFO - Created test market TEST1751240033589ed841/USDT PERP with ID: market_215
+2025-06-30 03:34:08,628 - tests.test_rmr_governance - INFO - Verifying RMR storage for market market_215
+2025-06-30 03:34:08,628 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_215 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:08,657 - market_utils - INFO - Market market_215 RMR: expected=0.1, actual=0.1, diff=0.0
+2025-06-30 03:34:08,657 - tests.test_rmr_governance - INFO - RMR value correctly stored for market market_215
+2025-06-30 03:34:08,657 - tests.conftest - INFO - Test completed for market: TEST1751240033589ed841/USDT PERP
+2025-06-30 03:34:08,657 - tests.conftest - INFO - Completed test: test_rmr_stored_correctly
+2025-06-30 03:34:27,936 - tests.conftest - INFO - Checking Injective node connection...
+2025-06-30 03:34:27,936 - injective_cli - INFO - Executing command (attempt 1): injectived query block --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:27,970 - tests.conftest - INFO - Connected to Injective node at block height: 1000009
+2025-06-30 03:34:27,970 - tests.conftest - INFO - Verifying test keys...
+2025-06-30 03:34:27,970 - injective_cli - INFO - Executing command (attempt 1): injectived keys show testcandidate --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:27,995 - tests.conftest - INFO - Key 'testcandidate' is available
+2025-06-30 03:34:27,996 - injective_cli - INFO - Executing command (attempt 1): injectived keys show val --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:28,020 - tests.conftest - INFO - Key 'val' is available
+2025-06-30 03:34:28,021 - injective_cli - INFO - Executing command (attempt 1): injectived keys show testcandidate --address --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:28,046 - tests.conftest - INFO - Key 'testcandidate' is available
+2025-06-30 03:34:28,046 - tests.conftest - INFO - Starting test: test_create_perp_market_with_rmr
+2025-06-30 03:34:28,047 - tests.test_rmr_governance - INFO - Testing market creation with RMR for ticker: TEST175124006851d5c104/USDT PERP
+2025-06-30 03:34:28,047 - tests.test_rmr_governance - INFO - Created proposal for market TEST175124006851d5c104/USDT PERP with RMR=0.1
+2025-06-30 03:34:28,047 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:34:28,047 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:28,077 - market_utils - INFO - Proposal submitted with ID: 441
+2025-06-30 03:34:33,082 - market_utils - INFO - Voting on proposal 441...
+2025-06-30 03:34:33,083 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 441 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:33,139 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 441 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:33,171 - market_utils - INFO - Proposal 441 passed successfully
+2025-06-30 03:34:33,171 - tests.test_rmr_governance - INFO - Proposal 441 passed successfully
+2025-06-30 03:34:48,176 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:48,217 - tests.test_rmr_governance - INFO - Successfully created market TEST175124006851d5c104/USDT PERP with ID: market_441
+2025-06-30 03:34:48,218 - tests.conftest - INFO - Completed test: test_create_perp_market_with_rmr
+2025-06-30 03:34:48,219 - tests.conftest - INFO - Starting test: test_rmr_stored_correctly
+2025-06-30 03:34:48,219 - tests.conftest - INFO - Creating test market: TEST1751240088cfd4814f/USDT PERP
+2025-06-30 03:34:48,219 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:34:48,219 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:48,256 - market_utils - INFO - Proposal submitted with ID: 543
+2025-06-30 03:34:53,262 - market_utils - INFO - Voting on proposal 543...
+2025-06-30 03:34:53,262 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 543 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:53,304 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 543 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:34:53,331 - market_utils - INFO - Proposal 543 passed successfully
+2025-06-30 03:35:03,337 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:03,390 - tests.conftest - INFO - Created test market TEST1751240088cfd4814f/USDT PERP with ID: market_543
+2025-06-30 03:35:03,391 - tests.test_rmr_governance - INFO - Verifying RMR storage for market market_543
+2025-06-30 03:35:03,391 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_543 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:03,419 - market_utils - INFO - Market market_543 RMR: expected=0.1, actual=0.1, diff=0.0
+2025-06-30 03:35:03,420 - tests.test_rmr_governance - INFO - RMR value correctly stored for market market_543
+2025-06-30 03:35:03,420 - tests.conftest - INFO - Test completed for market: TEST1751240088cfd4814f/USDT PERP
+2025-06-30 03:35:03,420 - tests.conftest - INFO - Completed test: test_rmr_stored_correctly
+2025-06-30 03:35:03,421 - tests.conftest - INFO - Starting test: test_rmr_constraint_validation[valid_high]
+2025-06-30 03:35:03,421 - tests.test_rmr_governance - INFO - Testing RMR constraint for scenario 'valid_high': RMR=0.15, IMR=0.05, MMR=0.03
+2025-06-30 03:35:03,421 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:35:03,421 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:03,453 - market_utils - INFO - Proposal submitted with ID: 167
+2025-06-30 03:35:08,458 - market_utils - INFO - Voting on proposal 167...
+2025-06-30 03:35:08,459 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 167 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:08,502 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 167 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:08,531 - market_utils - INFO - Proposal 167 passed successfully
+2025-06-30 03:35:23,536 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:23,585 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_167 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:23,612 - market_utils - INFO - Market market_167 RMR: expected=0.15, actual=0.15, diff=0.0
+2025-06-30 03:35:23,612 - tests.test_rmr_governance - INFO - Successfully validated RMR constraint for scenario 'valid_high'
+2025-06-30 03:35:23,612 - tests.conftest - INFO - Completed test: test_rmr_constraint_validation[valid_high]
+2025-06-30 03:35:23,613 - tests.conftest - INFO - Starting test: test_rmr_constraint_validation[valid_medium]
+2025-06-30 03:35:23,613 - tests.test_rmr_governance - INFO - Testing RMR constraint for scenario 'valid_medium': RMR=0.1, IMR=0.05, MMR=0.03
+2025-06-30 03:35:23,613 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:35:23,613 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:23,644 - market_utils - INFO - Proposal submitted with ID: 342
+2025-06-30 03:35:28,650 - market_utils - INFO - Voting on proposal 342...
+2025-06-30 03:35:28,650 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 342 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:28,699 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 342 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:28,728 - market_utils - INFO - Proposal 342 passed successfully
+2025-06-30 03:35:43,733 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:43,789 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_342 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:43,818 - market_utils - INFO - Market market_342 RMR: expected=0.1, actual=0.1, diff=0.0
+2025-06-30 03:35:43,818 - tests.test_rmr_governance - INFO - Successfully validated RMR constraint for scenario 'valid_medium'
+2025-06-30 03:35:43,818 - tests.conftest - INFO - Completed test: test_rmr_constraint_validation[valid_medium]
+2025-06-30 03:35:43,819 - tests.conftest - INFO - Starting test: test_rmr_constraint_validation[valid_low]
+2025-06-30 03:35:43,819 - tests.test_rmr_governance - INFO - Testing RMR constraint for scenario 'valid_low': RMR=0.05, IMR=0.05, MMR=0.03
+2025-06-30 03:35:43,820 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:35:43,820 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:43,853 - market_utils - INFO - Proposal submitted with ID: 249
+2025-06-30 03:35:48,858 - market_utils - INFO - Voting on proposal 249...
+2025-06-30 03:35:48,858 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 249 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:48,905 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 249 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:35:48,935 - market_utils - INFO - Proposal 249 passed successfully
+2025-06-30 03:36:03,937 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:03,971 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_249 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:03,997 - market_utils - INFO - Market market_249 RMR: expected=0.05, actual=0.05, diff=0.0
+2025-06-30 03:36:03,997 - tests.test_rmr_governance - INFO - Successfully validated RMR constraint for scenario 'valid_low'
+2025-06-30 03:36:03,997 - tests.conftest - INFO - Completed test: test_rmr_constraint_validation[valid_low]
+2025-06-30 03:36:03,998 - tests.conftest - INFO - Starting test: test_invalid_rmr_constraint_rejected
+2025-06-30 03:36:03,998 - tests.test_rmr_governance - INFO - Testing invalid RMR constraint: RMR=0.02, IMR=0.05, MMR=0.03
+2025-06-30 03:36:03,998 - tests.test_rmr_governance - INFO - Invalid RMR constraint correctly rejected during proposal creation
+2025-06-30 03:36:03,999 - tests.conftest - INFO - Completed test: test_invalid_rmr_constraint_rejected
+2025-06-30 03:36:03,999 - tests.conftest - INFO - Starting test: test_rmr_precision_handling
+2025-06-30 03:36:03,999 - tests.test_rmr_governance - INFO - Testing high precision RMR: 0.051234
+2025-06-30 03:36:03,999 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:36:03,999 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:04,033 - market_utils - INFO - Proposal submitted with ID: 173
+2025-06-30 03:36:09,037 - market_utils - INFO - Voting on proposal 173...
+2025-06-30 03:36:09,037 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 173 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:09,063 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 173 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:09,087 - market_utils - INFO - Proposal 173 passed successfully
+2025-06-30 03:36:24,092 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:24,134 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_173 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:24,161 - market_utils - INFO - Market market_173 RMR: expected=0.051234, actual=0.051234, diff=0.0
+2025-06-30 03:36:24,161 - tests.test_rmr_governance - INFO - High precision RMR value handled correctly
+2025-06-30 03:36:24,161 - tests.conftest - INFO - Completed test: test_rmr_precision_handling
+2025-06-30 03:36:24,162 - tests.conftest - INFO - Starting test: test_multiple_markets_with_different_rmr
+2025-06-30 03:36:24,162 - tests.test_rmr_governance - INFO - Creating market MULTIHIGH175124018421e723/USDT PERP with RMR=0.15
+2025-06-30 03:36:24,162 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:36:24,162 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:24,190 - market_utils - INFO - Proposal submitted with ID: 163
+2025-06-30 03:36:29,195 - market_utils - INFO - Voting on proposal 163...
+2025-06-30 03:36:29,196 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 163 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:29,230 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 163 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:29,257 - market_utils - INFO - Proposal 163 passed successfully
+2025-06-30 03:36:39,262 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:39,300 - tests.test_rmr_governance - INFO - Creating market MULTIMED1751240199bb3d56/USDT PERP with RMR=0.1
+2025-06-30 03:36:39,301 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:36:39,301 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:39,333 - market_utils - INFO - Proposal submitted with ID: 974
+2025-06-30 03:36:44,337 - market_utils - INFO - Voting on proposal 974...
+2025-06-30 03:36:44,337 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 974 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:44,373 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 974 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:44,404 - market_utils - INFO - Proposal 974 passed successfully
+2025-06-30 03:36:54,410 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:54,465 - tests.test_rmr_governance - INFO - Creating market MULTILOW17512402146f88f1/USDT PERP with RMR=0.05
+2025-06-30 03:36:54,465 - market_utils - INFO - Submitting governance proposal...
+2025-06-30 03:36:54,465 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov submit-proposal /tmp/market_proposal.json --from testcandidate --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:54,499 - market_utils - INFO - Proposal submitted with ID: 401
+2025-06-30 03:36:59,505 - market_utils - INFO - Voting on proposal 401...
+2025-06-30 03:36:59,505 - injective_cli - INFO - Executing command (attempt 1): injectived tx gov vote 401 yes --from val --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:59,535 - injective_cli - INFO - Executing command (attempt 1): injectived query gov proposal 401 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:36:59,561 - market_utils - INFO - Proposal 401 passed successfully
+2025-06-30 03:37:09,566 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-markets --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:37:09,602 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_163 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:37:09,629 - market_utils - INFO - Market market_163 RMR: expected=0.15, actual=0.15, diff=0.0
+2025-06-30 03:37:09,629 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_974 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:37:09,653 - market_utils - INFO - Market market_974 RMR: expected=0.1, actual=0.1, diff=0.0
+2025-06-30 03:37:09,653 - injective_cli - INFO - Executing command (attempt 1): injectived query exchange perpetual-market-info market_401 --chain-id injective-1 --node tcp://localhost:26657 --keyring-backend test --yes --output json
+2025-06-30 03:37:09,678 - market_utils - INFO - Market market_401 RMR: expected=0.05, actual=0.05, diff=0.0
+2025-06-30 03:37:09,678 - tests.test_rmr_governance - INFO - Successfully created 3 markets with different RMR values
+2025-06-30 03:37:09,679 - tests.conftest - INFO - Completed test: test_multiple_markets_with_different_rmr
+2025-06-30 04:25:19,126 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 04:25:19,127 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 04:25:19,127 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.05, MMR=0.03
+2025-06-30 04:25:19,168 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 04:28:17,697 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 04:28:17,697 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 04:28:17,697 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.05, MMR=0.03
+2025-06-30 04:28:17,697 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 04:28:17,698 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 04:28:17,698 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 04:28:17,698 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.03
+2025-06-30 04:28:17,698 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 04:28:17,698 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 04:28:17,698 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.15, IMR=0.1, MMR=0.05, expected_valid=True
+2025-06-30 04:28:17,698 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.15, IMR=0.1, MMR=0.05
+2025-06-30 04:28:17,698 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 04:28:17,698 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 04:28:17,698 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.2, IMR=0.15, MMR=0.1, expected_valid=True
+2025-06-30 04:28:17,698 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.2, IMR=0.15, MMR=0.1
+2025-06-30 04:28:17,699 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 04:28:17,699 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 04:28:17,699 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.03, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 04:28:17,699 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.03, IMR=0.05, MMR=0.03
+2025-06-30 04:28:17,699 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 04:28:17,699 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 04:28:17,699 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.02, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 04:28:17,699 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.02, IMR=0.05, MMR=0.03
+2025-06-30 04:28:17,699 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 04:28:17,699 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 04:28:17,699 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.03, MMR=0.05, expected_valid=False
+2025-06-30 04:28:17,700 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.03, MMR=0.05
+2025-06-30 04:28:17,700 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 04:28:17,700 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 04:28:17,700 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.05, expected_valid=False
+2025-06-30 04:28:17,700 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.05
+2025-06-30 04:28:17,700 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 04:28:17,700 - tests.conftest - INFO - Starting test: test_edge_case_values[0.0]
+2025-06-30 04:28:17,700 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.0
+2025-06-30 04:28:17,700 - tests.test_rmr_validation - INFO - Edge case RMR 0.0 handled correctly (invalid, properly rejected)
+2025-06-30 04:28:17,700 - tests.conftest - INFO - Completed test: test_edge_case_values[0.0]
+2025-06-30 04:28:17,700 - tests.conftest - INFO - Starting test: test_edge_case_values[1e-06]
+2025-06-30 04:28:17,701 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1e-06
+2025-06-30 04:28:17,701 - tests.test_rmr_validation - INFO - Edge case RMR 1e-06 handled correctly (invalid, properly rejected)
+2025-06-30 04:28:17,701 - tests.conftest - INFO - Completed test: test_edge_case_values[1e-06]
+2025-06-30 04:28:17,701 - tests.conftest - INFO - Starting test: test_edge_case_values[0.999999]
+2025-06-30 04:28:17,701 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.999999
+2025-06-30 04:28:17,701 - tests.test_rmr_validation - INFO - Edge case RMR 0.999999 handled correctly (valid)
+2025-06-30 04:28:17,701 - tests.conftest - INFO - Completed test: test_edge_case_values[0.999999]
+2025-06-30 04:28:17,701 - tests.conftest - INFO - Starting test: test_edge_case_values[1.0]
+2025-06-30 04:28:17,701 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1.0
+2025-06-30 04:28:17,701 - tests.test_rmr_validation - INFO - Edge case RMR 1.0 handled correctly (valid)
+2025-06-30 04:28:17,701 - tests.conftest - INFO - Completed test: test_edge_case_values[1.0]
+2025-06-30 04:28:17,702 - tests.conftest - INFO - Starting test: test_edge_case_values[0.05]
+2025-06-30 04:28:17,702 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.05
+2025-06-30 04:28:17,702 - tests.test_rmr_validation - INFO - Edge case RMR 0.05 handled correctly (valid)
+2025-06-30 04:28:17,702 - tests.conftest - INFO - Completed test: test_edge_case_values[0.05]
+2025-06-30 04:28:17,702 - tests.conftest - INFO - Starting test: test_edge_case_values[0.050001]
+2025-06-30 04:28:17,702 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.050001
+2025-06-30 04:28:17,702 - tests.test_rmr_validation - INFO - Edge case RMR 0.050001 handled correctly (valid)
+2025-06-30 04:28:17,702 - tests.conftest - INFO - Completed test: test_edge_case_values[0.050001]
+2025-06-30 04:28:17,702 - tests.conftest - INFO - Starting test: test_edge_case_values[0.049999]
+2025-06-30 04:28:17,702 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.049999
+2025-06-30 04:28:17,702 - tests.test_rmr_validation - INFO - Edge case RMR 0.049999 handled correctly (invalid, properly rejected)
+2025-06-30 04:28:17,702 - tests.conftest - INFO - Completed test: test_edge_case_values[0.049999]
+2025-06-30 04:28:17,703 - tests.conftest - INFO - Starting test: test_precision_limits
+2025-06-30 04:28:17,703 - tests.test_rmr_validation - INFO - Testing high precision RMR: 0.051234567890123456
+2025-06-30 04:28:17,703 - tests.test_rmr_validation - INFO - High precision 0.051234567890123456 stored as: 0.051234
+2025-06-30 04:28:17,703 - tests.test_rmr_validation - INFO - High precision RMR handled correctly
+2025-06-30 04:28:17,703 - tests.conftest - INFO - Completed test: test_precision_limits
+2025-06-30 04:28:17,703 - tests.conftest - INFO - Starting test: test_invalid_input_types[-0.01]
+2025-06-30 04:28:17,703 - tests.test_rmr_validation - INFO - Testing invalid input: -0.01
+2025-06-30 04:28:17,703 - tests.test_rmr_validation - INFO - Invalid input -0.01 properly rejected
+2025-06-30 04:28:17,703 - tests.conftest - INFO - Completed test: test_invalid_input_types[-0.01]
+2025-06-30 04:28:17,704 - tests.conftest - INFO - Starting test: test_invalid_input_types[-1.0]
+2025-06-30 04:28:17,704 - tests.test_rmr_validation - INFO - Testing invalid input: -1.0
+2025-06-30 04:28:17,704 - tests.test_rmr_validation - INFO - Invalid input -1.0 properly rejected
+2025-06-30 04:28:17,704 - tests.conftest - INFO - Completed test: test_invalid_input_types[-1.0]
+2025-06-30 04:28:17,704 - tests.conftest - INFO - Starting test: test_invalid_input_types[inf]
+2025-06-30 04:28:17,704 - tests.test_rmr_validation - INFO - Testing invalid input: inf
+2025-06-30 04:28:17,722 - tests.conftest - INFO - Completed test: test_invalid_input_types[inf]
+2025-06-30 04:28:17,723 - tests.conftest - INFO - Starting test: test_invalid_input_types[-inf]
+2025-06-30 04:28:17,723 - tests.test_rmr_validation - INFO - Testing invalid input: -inf
+2025-06-30 04:28:17,723 - tests.test_rmr_validation - INFO - Invalid input -inf properly rejected
+2025-06-30 04:28:17,723 - tests.conftest - INFO - Completed test: test_invalid_input_types[-inf]
+2025-06-30 04:28:17,723 - tests.conftest - INFO - Starting test: test_error_handling_messages
+2025-06-30 04:28:17,723 - tests.test_rmr_validation - INFO - Testing error message quality
+2025-06-30 04:28:17,723 - tests.test_rmr_validation - INFO - Error message is informative: Invalid margin ratios: RMR(0.02) >= IMR(0.05) > MMR(0.03) constraint not met
+2025-06-30 04:28:17,723 - tests.conftest - INFO - Completed test: test_error_handling_messages
+2025-06-30 04:28:17,723 - tests.conftest - INFO - Starting test: test_constraint_validation_consistency
+2025-06-30 04:28:17,723 - tests.test_rmr_validation - INFO - Testing constraint validation consistency
+2025-06-30 04:28:17,723 - tests.test_rmr_validation - INFO - Testing consistency for valid_high: RMR=0.15
+2025-06-30 04:28:17,723 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_high
+2025-06-30 04:28:17,723 - tests.test_rmr_validation - INFO - Testing consistency for valid_medium: RMR=0.1
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_medium
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Testing consistency for valid_low: RMR=0.05
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_low
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Testing consistency for invalid_low: RMR=0.02
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Validation consistency verified for invalid_low
+2025-06-30 04:28:17,724 - tests.conftest - INFO - Completed test: test_constraint_validation_consistency
+2025-06-30 04:28:17,724 - tests.conftest - INFO - Starting test: test_floating_point_precision_edge_cases
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Testing floating point precision edge cases
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Testing slightly_above_imr: RMR=0.050000000100000004
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_above_imr
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Testing slightly_below_imr: RMR=0.0499999999
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_below_imr
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Testing exactly_imr: RMR=0.05
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for exactly_imr
+2025-06-30 04:28:17,724 - tests.conftest - INFO - Completed test: test_floating_point_precision_edge_cases
+2025-06-30 04:28:17,724 - tests.conftest - INFO - Starting test: test_percentage_vs_decimal_consistency
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Testing percentage vs decimal consistency
+2025-06-30 04:28:17,724 - tests.test_rmr_validation - INFO - Percentage vs decimal consistency verified
+2025-06-30 04:28:17,724 - tests.conftest - INFO - Completed test: test_percentage_vs_decimal_consistency
+2025-06-30 04:28:56,451 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 04:28:56,451 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 04:28:56,451 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.05, MMR=0.03
+2025-06-30 04:28:56,452 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.05-0.03-True]
+2025-06-30 04:28:56,452 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 04:28:56,452 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.03, expected_valid=True
+2025-06-30 04:28:56,452 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.03
+2025-06-30 04:28:56,452 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.03-True]
+2025-06-30 04:28:56,452 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 04:28:56,452 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.15, IMR=0.1, MMR=0.05, expected_valid=True
+2025-06-30 04:28:56,452 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.15, IMR=0.1, MMR=0.05
+2025-06-30 04:28:56,452 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.15-0.1-0.05-True]
+2025-06-30 04:28:56,453 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 04:28:56,453 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.2, IMR=0.15, MMR=0.1, expected_valid=True
+2025-06-30 04:28:56,453 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.2, IMR=0.15, MMR=0.1
+2025-06-30 04:28:56,453 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.2-0.15-0.1-True]
+2025-06-30 04:28:56,453 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 04:28:56,453 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.03, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 04:28:56,453 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.03, IMR=0.05, MMR=0.03
+2025-06-30 04:28:56,453 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.03-0.05-0.03-False]
+2025-06-30 04:28:56,453 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 04:28:56,454 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.02, IMR=0.05, MMR=0.03, expected_valid=False
+2025-06-30 04:28:56,454 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.02, IMR=0.05, MMR=0.03
+2025-06-30 04:28:56,454 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.02-0.05-0.03-False]
+2025-06-30 04:28:56,454 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 04:28:56,454 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.1, IMR=0.03, MMR=0.05, expected_valid=False
+2025-06-30 04:28:56,454 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.1, IMR=0.03, MMR=0.05
+2025-06-30 04:28:56,454 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.1-0.03-0.05-False]
+2025-06-30 04:28:56,454 - tests.conftest - INFO - Starting test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 04:28:56,454 - tests.test_rmr_validation - INFO - Testing constraint: RMR=0.05, IMR=0.05, MMR=0.05, expected_valid=False
+2025-06-30 04:28:56,454 - tests.test_rmr_validation - INFO - Constraint validation correct for RMR=0.05, IMR=0.05, MMR=0.05
+2025-06-30 04:28:56,455 - tests.conftest - INFO - Completed test: test_rmr_constraint_enforcement[0.05-0.05-0.05-False]
+2025-06-30 04:28:56,455 - tests.conftest - INFO - Starting test: test_edge_case_values[0.0]
+2025-06-30 04:28:56,455 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.0
+2025-06-30 04:28:56,455 - tests.test_rmr_validation - INFO - Edge case RMR 0.0 handled correctly (invalid, properly rejected)
+2025-06-30 04:28:56,455 - tests.conftest - INFO - Completed test: test_edge_case_values[0.0]
+2025-06-30 04:28:56,455 - tests.conftest - INFO - Starting test: test_edge_case_values[1e-06]
+2025-06-30 04:28:56,455 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1e-06
+2025-06-30 04:28:56,455 - tests.test_rmr_validation - INFO - Edge case RMR 1e-06 handled correctly (invalid, properly rejected)
+2025-06-30 04:28:56,456 - tests.conftest - INFO - Completed test: test_edge_case_values[1e-06]
+2025-06-30 04:28:56,456 - tests.conftest - INFO - Starting test: test_edge_case_values[0.999999]
+2025-06-30 04:28:56,456 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.999999
+2025-06-30 04:28:56,456 - tests.test_rmr_validation - INFO - Edge case RMR 0.999999 handled correctly (valid)
+2025-06-30 04:28:56,456 - tests.conftest - INFO - Completed test: test_edge_case_values[0.999999]
+2025-06-30 04:28:56,456 - tests.conftest - INFO - Starting test: test_edge_case_values[1.0]
+2025-06-30 04:28:56,456 - tests.test_rmr_validation - INFO - Testing edge case: RMR=1.0
+2025-06-30 04:28:56,456 - tests.test_rmr_validation - INFO - Edge case RMR 1.0 handled correctly (valid)
+2025-06-30 04:28:56,456 - tests.conftest - INFO - Completed test: test_edge_case_values[1.0]
+2025-06-30 04:28:56,456 - tests.conftest - INFO - Starting test: test_edge_case_values[0.05]
+2025-06-30 04:28:56,457 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.05
+2025-06-30 04:28:56,457 - tests.test_rmr_validation - INFO - Edge case RMR 0.05 handled correctly (valid)
+2025-06-30 04:28:56,457 - tests.conftest - INFO - Completed test: test_edge_case_values[0.05]
+2025-06-30 04:28:56,457 - tests.conftest - INFO - Starting test: test_edge_case_values[0.050001]
+2025-06-30 04:28:56,457 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.050001
+2025-06-30 04:28:56,457 - tests.test_rmr_validation - INFO - Edge case RMR 0.050001 handled correctly (valid)
+2025-06-30 04:28:56,457 - tests.conftest - INFO - Completed test: test_edge_case_values[0.050001]
+2025-06-30 04:28:56,457 - tests.conftest - INFO - Starting test: test_edge_case_values[0.049999]
+2025-06-30 04:28:56,457 - tests.test_rmr_validation - INFO - Testing edge case: RMR=0.049999
+2025-06-30 04:28:56,457 - tests.test_rmr_validation - INFO - Edge case RMR 0.049999 handled correctly (invalid, properly rejected)
+2025-06-30 04:28:56,457 - tests.conftest - INFO - Completed test: test_edge_case_values[0.049999]
+2025-06-30 04:28:56,457 - tests.conftest - INFO - Starting test: test_precision_limits
+2025-06-30 04:28:56,458 - tests.test_rmr_validation - INFO - Testing high precision RMR: 0.051234567890123456
+2025-06-30 04:28:56,458 - tests.test_rmr_validation - INFO - High precision 0.051234567890123456 stored as: 0.051234
+2025-06-30 04:28:56,458 - tests.test_rmr_validation - INFO - High precision RMR handled correctly
+2025-06-30 04:28:56,458 - tests.conftest - INFO - Completed test: test_precision_limits
+2025-06-30 04:28:56,458 - tests.conftest - INFO - Starting test: test_invalid_input_types[-0.01]
+2025-06-30 04:28:56,458 - tests.test_rmr_validation - INFO - Testing invalid input: -0.01
+2025-06-30 04:28:56,458 - tests.test_rmr_validation - INFO - Invalid input -0.01 properly rejected
+2025-06-30 04:28:56,458 - tests.conftest - INFO - Completed test: test_invalid_input_types[-0.01]
+2025-06-30 04:28:56,458 - tests.conftest - INFO - Starting test: test_invalid_input_types[-1.0]
+2025-06-30 04:28:56,458 - tests.test_rmr_validation - INFO - Testing invalid input: -1.0
+2025-06-30 04:28:56,458 - tests.test_rmr_validation - INFO - Invalid input -1.0 properly rejected
+2025-06-30 04:28:56,458 - tests.conftest - INFO - Completed test: test_invalid_input_types[-1.0]
+2025-06-30 04:28:56,459 - tests.conftest - INFO - Starting test: test_invalid_input_types[inf]
+2025-06-30 04:28:56,459 - tests.test_rmr_validation - INFO - Testing invalid input: inf
+2025-06-30 04:28:56,468 - tests.conftest - INFO - Completed test: test_invalid_input_types[inf]
+2025-06-30 04:28:56,468 - tests.conftest - INFO - Starting test: test_invalid_input_types[-inf]
+2025-06-30 04:28:56,468 - tests.test_rmr_validation - INFO - Testing invalid input: -inf
+2025-06-30 04:28:56,468 - tests.test_rmr_validation - INFO - Invalid input -inf properly rejected
+2025-06-30 04:28:56,468 - tests.conftest - INFO - Completed test: test_invalid_input_types[-inf]
+2025-06-30 04:28:56,469 - tests.conftest - INFO - Starting test: test_error_handling_messages
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Testing error message quality
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Error message is informative: Invalid margin ratios: RMR(0.02) >= IMR(0.05) > MMR(0.03) constraint not met
+2025-06-30 04:28:56,469 - tests.conftest - INFO - Completed test: test_error_handling_messages
+2025-06-30 04:28:56,469 - tests.conftest - INFO - Starting test: test_constraint_validation_consistency
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Testing constraint validation consistency
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Testing consistency for valid_high: RMR=0.15
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_high
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Testing consistency for valid_medium: RMR=0.1
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_medium
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Testing consistency for valid_low: RMR=0.05
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Validation consistency verified for valid_low
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Testing consistency for invalid_low: RMR=0.02
+2025-06-30 04:28:56,469 - tests.test_rmr_validation - INFO - Validation consistency verified for invalid_low
+2025-06-30 04:28:56,469 - tests.conftest - INFO - Completed test: test_constraint_validation_consistency
+2025-06-30 04:28:56,470 - tests.conftest - INFO - Starting test: test_floating_point_precision_edge_cases
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Testing floating point precision edge cases
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Testing slightly_above_imr: RMR=0.050000000100000004
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_above_imr
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Testing slightly_below_imr: RMR=0.0499999999
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for slightly_below_imr
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Testing exactly_imr: RMR=0.05
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Floating point precision handled correctly for exactly_imr
+2025-06-30 04:28:56,470 - tests.conftest - INFO - Completed test: test_floating_point_precision_edge_cases
+2025-06-30 04:28:56,470 - tests.conftest - INFO - Starting test: test_percentage_vs_decimal_consistency
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Testing percentage vs decimal consistency
+2025-06-30 04:28:56,470 - tests.test_rmr_validation - INFO - Percentage vs decimal consistency verified
+2025-06-30 04:28:56,470 - tests.conftest - INFO - Completed test: test_percentage_vs_decimal_consistency
