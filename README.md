@@ -174,6 +174,179 @@ def mock_query_perpetual_markets():
     # 3. Match actual CLI response format
 ```
 
+## 🚀 Quick Start Guide
+
+### **Prerequisites**
+
+- **Python 3.8+** (tested with Python 3.12)
+- **Git** for version control
+- **Injective Protocol** node (optional - mock CLI provided for development)
+
+### **Installation**
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/arman0397/testing-framework-for-injective-labs-qa.git
+   cd testing-framework-for-injective-labs-qa
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Verify installation:**
+   ```bash
+   python -c "import pytest; print('✅ PyTest installed successfully')"
+   ```
+
+### **Environment Setup**
+
+**Option 1: Mock Blockchain (Recommended for Development)**
+```bash
+# Make mock CLI executable
+chmod +x injectived
+export PATH="$PWD:$PATH"
+
+# Test mock blockchain connectivity
+./injectived query block --chain-id injective-1 --node tcp://localhost:26657
+```
+
+**Option 2: Real Injective Node (Production Testing)**
+```bash
+# Configure environment for real node
+export INJECTIVE_NODE_URL="tcp://localhost:26657"
+export INJECTIVE_CHAIN_ID="injective-1"
+
+# Import test keys (if using real node)
+injectived keys unsafe-import-eth-key testcandidate 0BDD3547B26F21D7503B4890A7F5B2CCE612B77BC0383BC4136C10AEFD1E51BE
+injectived keys unsafe-import-eth-key val E9B1D63E8ACD7FE676ACB43AFB390D4B0202DAB61ABEC9CF2A561E4BECB147DE
+```
+
+### **Running Tests**
+
+#### **🔥 Quick Test (30 seconds)**
+```bash
+# Run smoke tests with mock blockchain
+python run_tests.py --smoke
+```
+
+#### **🧪 Full Test Suite**
+```bash
+# Run all 19 tests (comprehensive)
+python run_tests.py
+
+# Run specific test categories
+python run_tests.py -t validation    # Pure logic tests (no blockchain)
+python run_tests.py -t governance    # Governance flow tests
+python run_tests.py -t updates       # Market update tests
+```
+
+#### **⚡ Advanced Execution Options**
+```bash
+# Verbose output with detailed logging
+python run_tests.py -v
+
+# Parallel execution (faster)
+python run_tests.py --parallel
+
+# With coverage analysis
+python run_tests.py --with-coverage
+
+# Output specific format
+python run_tests.py --output junit    # JUnit XML
+python run_tests.py --output html     # HTML report
+```
+
+#### **🎯 Individual Test Execution**
+```bash
+# Run specific test file
+pytest tests/test_rmr_validation.py -v
+
+# Run specific test function
+pytest tests/test_rmr_validation.py::test_rmr_constraint_enforcement -v
+
+# Run tests matching pattern
+pytest -k "constraint" -v
+```
+
+### **Test Reports & Logs**
+
+After each test run, check these locations for detailed results:
+
+- **📊 Execution Report**: `TEST_EXECUTION_LOG.md` (auto-updated)
+- **📋 Detailed Logs**: `logs/test_execution.log`
+- **🎯 Live Output**: Terminal display with real-time results
+
+### **Expected Results**
+
+**✅ Successful Test Run Example:**
+```
+======================================= Test Summary =======================================
+✅ Passed: 18 tests
+❌ Failed: 1 test (test_invalid_input_types[inf] - Known critical bug)
+🚨 Errors: 0
+⏭️ Skipped: 0
+⏱️ Duration: ~45 seconds
+```
+
+**🔍 Critical Bug Verification:**
+The test suite will show **1 expected failure** for `test_invalid_input_types[inf]` - this is the critical security bug we discovered where `float('inf')` bypasses validation.
+
+### **🔧 Troubleshooting**
+
+#### **Common Issues & Solutions**
+
+**Issue**: `ImportError: No module named 'pytest'`
+```bash
+# Solution: Install requirements
+pip install -r requirements.txt
+```
+
+**Issue**: `injectived: command not found`
+```bash
+# Solution: Add mock CLI to PATH
+export PATH="$PWD:$PATH"
+chmod +x injectived
+```
+
+**Issue**: `Node connection failed`
+```bash
+# Solution: Use mock CLI (recommended)
+# The tests will automatically fall back to mock blockchain
+```
+
+**Issue**: `Permission denied: ./injectived`
+```bash
+# Solution: Make executable
+chmod +x injectived
+```
+
+#### **Debug Mode**
+```bash
+# Run tests with maximum debug output
+python run_tests.py --debug
+
+# Check detailed logs
+tail -f logs/test_execution.log
+```
+
+### **🎯 Test Configuration**
+
+Customize test behavior by editing `config/test_env.env`:
+
+```bash
+# Mock vs Real blockchain
+USE_MOCK_CLI=true                    # Use mock CLI (recommended)
+INJECTIVE_NODE_URL=tcp://localhost:26657
+INJECTIVE_CHAIN_ID=injective-1
+
+# Test parameters
+DEFAULT_RMR_VALUES=0.05,0.10,0.15,0.20,0.25
+GOVERNANCE_VOTING_PERIOD=300         # seconds
+TEST_TIMEOUT=60                      # seconds per test
+```
+
 ## 🧪 Test Categories & Implementation
 
 ### **1. Validation Tests (8 tests) - Pure Logic Testing**
